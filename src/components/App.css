@@ -20,3 +20,15 @@
 .App-link {
   color: #09d3ac;
 }
+
+.star{
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.link{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}

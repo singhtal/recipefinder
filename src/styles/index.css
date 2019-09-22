@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    padding: 5%;
+}
+
+.form-inline{
+    margin: 30px 0;
+}
+
+.recipe-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px 0 15px 5px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.recipe-text{
+    display: inline-block;
+    text-align: left;
+    padding-right: 10px;
+    width: 400px;
+}
+
+.recipe-img{
+    display: inline-block;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    object-fit: cover;
+}
