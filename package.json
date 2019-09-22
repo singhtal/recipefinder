@@ -2,7 +2,9 @@
   "name": "recipefinder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tal1992.github.io/recipe-finder",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.9.0",
@@ -12,6 +14,8 @@
     "redux": "^4.0.4"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
